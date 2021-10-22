@@ -31,7 +31,7 @@ let arry = ([
 function printInstructions(steps) {
     let count = 0;
     for (let i = 0; i < steps.length; i++) {
-        count = count + 1;
+        count += 1;
         steps[i] = "Step " + count + " - " + steps[i];
         console.log(steps[i]);
     }
